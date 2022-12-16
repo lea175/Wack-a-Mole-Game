@@ -8,15 +8,13 @@
 .grid:hover {
         width: 612px;
         height: 612px;
-        display: flex;
-        flex-wrap: wrap;
+
 }
 
 .square {
     width: 200px;
     height: 200px;
     border: 1px solid black;
-    overflow: auto;
 }
 
 .square:hover {
@@ -27,5 +25,6 @@
 }
 
 .mole {
-    background-color: blueviolet;
+    background-image: url('mole.jpg');
+    background-size: cover;
 }
